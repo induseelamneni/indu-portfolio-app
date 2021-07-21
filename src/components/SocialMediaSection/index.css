@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.social-media-bg {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #ffffff35;
+  border: 1px solid #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .social-media-bg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: #ffffff35;
+    border: 1px solid #ffffff;
+  }
+}
+.social-logo {
+  margin-right: 8px;
+  margin-bottom: 12px;
+  margin-left: 8px;
+}
+@media screen and (min-width: 768px) {
+  .social-logo {
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+  }
+}

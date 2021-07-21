@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.projects {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 700;
+}
+@media screen and (min-width: 768px) {
+  .projects {
+    font-size: 32px;
+  }
+}
+.project-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-grow: wrap;
+  padding-left: 0px;
+}
+@media screen and (min-width: 768px) {
+  .project-container {
+    justify-content: flex-start;
+    max-width: 700px;
+  }
+}
+.project-list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 12px;
+}
+@media screen and (min-width: 768px) {
+  .project-list-item {
+    width: 40%;
+  }
+}
+.project-image {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .project-image {
+    width: 185px;
+  }
+}
+.project-name {
+  color: #1e293b;
+  font-size: 10px;
+  font-family: 'Roboto';
+}

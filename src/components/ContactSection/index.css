@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.contact-sec-heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 27px;
+}
+@media screen and (min-width: 576px) {
+  .contact-sec-heading {
+    color: #0f172a;
+    font-family: 'Roboto';
+    font-size: 32px;
+  }
+}
+.location-img {
+  height: 200px;
+  width: 200px;
+}
+.contact-paragraph {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+.please-contact {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+@media screen and (min-width: 576px) {
+  .please-contact {
+    font-size: 24px;
+  }
+}
+.phon-no {
+  color: #ffffff60;
+  font-family: 'Roboto';
+  font-size: 10px;
+}

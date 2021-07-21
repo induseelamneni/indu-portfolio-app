@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.home-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.home-heading {
+  font-size: 27px;
+  font-family: 'Roboto';
+  color: #0f172a;
+}
+@media screen and (min-width: 576px) {
+  .home-heading {
+    font-size: 32px;
+  }
+}
+.home-paragraph {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.home-description {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+}
+@media screen and (min-width: 576px) {
+  .home-description {
+    font-size: 22px;
+  }
+}
+.resume-btn {
+  background-color: #ffffff;
+  color: #f43f5e;
+  border-radius: 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-right: 12px;
+  margin-left: 12px;
+  outline: none;
+  border: none;
+  font-size: 10px;
+  font-weight: 500;
+}
